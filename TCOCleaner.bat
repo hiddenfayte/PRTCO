@@ -1,2 +1,3 @@
-ROBOCOPY %userprofile%\Downloads C:\tempToDelete /mov /minage:3
+mkdir C:\tempToDelete
+ROBOCOPY "%userprofile%\Downloads" C:\tempToDelete /mov /minage:3
 del C:\tempToDelete /q
