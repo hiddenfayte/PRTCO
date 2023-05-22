@@ -1,4 +1,1 @@
-echo "MarUpdate"
-mkdir C:\tempToDelete
-ROBOCOPY "%userprofile%\Downloads" C:\tempToDelete /mov /minage:3
-del C:\tempToDelete /q
+Powershell.exe -executionpolicy remotesigned -File  C:\TCOCleaner\TCOCleaner.ps1
