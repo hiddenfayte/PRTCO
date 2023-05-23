@@ -5,7 +5,7 @@ $fileLoca2 = $Env:userprofile + '\Pictures'
 $fileLoca3 = $Env:userprofile + '\Music'
 $fileLoca4 = $Env:userprofile + '\Desktop'
 
-Write-Host "Test Change"
+Write-Host "Test Change 231312313"
 
 
 ROBOCOPY $fileLoca1 C:\tempToDelete /E /MOVE /minage:3  /XF *.url *.lnk *.rdp
