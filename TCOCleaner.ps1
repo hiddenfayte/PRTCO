@@ -5,6 +5,8 @@ $fileLoca2 = $Env:userprofile + '\Pictures'
 $fileLoca3 = $Env:userprofile + '\Music'
 $fileLoca4 = $Env:userprofile + '\Desktop'
 
+Write-Host "Test Change"
+
 
 ROBOCOPY $fileLoca1 C:\tempToDelete /E /MOVE /minage:3  /XF *.url *.lnk *.rdp
 ROBOCOPY $fileLoca2 C:\tempToDelete /E /MOVE /minage:3  /XF *.url *.lnk *.rdp
