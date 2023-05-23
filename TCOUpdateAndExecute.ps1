@@ -1,5 +1,7 @@
 ﻿write-host "Starting Cleanup Process"
 
+Start-Transcript -Path "C:\TCOCleaner\transcript0.txt"
+
 try {
 
     write-host "Checking for updated code."
@@ -17,3 +19,4 @@ try {
     "An error occurred that could not be resolved."
 }
 
+Stop-Transcript
